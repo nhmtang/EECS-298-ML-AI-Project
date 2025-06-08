@@ -25,6 +25,6 @@ The output of the programs should generate a video in the current working direct
 **Please be aware that the execution of these programs WILL overwrite the previously generated videos and those videos cannot be recovered!**
 The current example videos were renamed so they will not be deleted upon execution of the code.
 
-The code for the Deep RL agent is primarily sourced from the tutorial here: https://www.datacamp.com/tutorial/reinforcement-learning-with-gymnasium
+The code for the Deep RL agent is primarily sourced from the tutorial here: https://www.datacamp.com/tutorial/reinforcement-learning-with-gymnasium \
 Only minor changes were made to the reward calculations and observation tensors used for training. The `main()` function was modified to save the trained model to "Model.pt" in the working directory so testing of the algorithm does not require retraining.
 Testing can be done with just the `test()` function. Video recording may require the MoviePy library as a prerequisite.
